@@ -5,3 +5,14 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.ball {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  background-color: red;
+  border-radius: 100px;
+  transition: all 5s linear;
+}
